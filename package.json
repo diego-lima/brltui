@@ -1,0 +1,19 @@
+{
+  "packageManager": "yarn@3.1.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "buildstart": "yarn build && yarn webpack-dev-server"
+  },
+  "dependencies": {
+    "svelte": "^3.44.1",
+    "svelte-web3": "^2.3.1",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "svelte-loader": "^3.1.2",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
